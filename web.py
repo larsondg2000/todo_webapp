@@ -12,7 +12,7 @@ def add_todo():
 
 st.title("My Todo App")
 st.subheader("Complete These Today")
-st.write("this app increase productivity")
+st.write("This app increases productivity")
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
